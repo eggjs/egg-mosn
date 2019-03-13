@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Sofa Mosn plugin for egg",
   "main": "index.js",
+  "files": [
+    "app",
+    "config",
+    "lib"
+  ],
   "eggPlugin": {
     "name": "mosn",
     "optionalDependencies": [
@@ -41,7 +46,8 @@
     "version": "8, 10"
   },
   "dependencies": {
-
+    "sdk-base": "^3.5.0",
+    "urllib": "^2.29.1"
   },
   "devDependencies": {
     "autod": "^3.0.1",
@@ -50,7 +56,11 @@
     "egg": "^2.10.0",
     "egg-bin": "^4.8.1",
     "egg-ci": "^1.8.0",
+    "egg-mock": "^3.19.2",
+    "egg-rpc-generator": "^1.0.0",
+    "egg-sofa-rpc": "^1.0.0",
     "eslint": "^5.3.0",
-    "eslint-config-egg": "^7.0.0"
+    "eslint-config-egg": "^7.0.0",
+    "mz-modules": "^2.1.0"
   }
 }

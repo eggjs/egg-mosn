@@ -5,9 +5,7 @@ module.exports = {
   plugin: 'autod-egg',
   prefix: '^',
   devprefix: '^',
-  exclude: [
-    'test/fixtures',
-  ],
+  exclude: [],
   devdep: [
     'autod',
     'autod-egg',
@@ -16,6 +14,7 @@ module.exports = {
     'egg-bin',
     'eslint',
     'eslint-config-egg',
+    'egg-rpc-generator',
     'contributors',
   ],
   keep: [],
