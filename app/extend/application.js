@@ -11,6 +11,7 @@ module.exports = {
       this[_sofaRegistry] = new MosnRegistry(Object.assign({
         httpclient: this.httpclient,
         appName: this.config.name,
+        zone: this.config.zone,
       }, options));
       this[_sofaRegistry].on('error', err => { this.coreLogger.error(err); });
       this.beforeStart(async () => {
