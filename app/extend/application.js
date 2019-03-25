@@ -1,6 +1,6 @@
 'use strict';
 
-const MosnRegistry = require('../../lib/mosn_registry');
+const MosnRegistry = require('../../lib/client');
 // Symbols
 const _sofaRegistry = Symbol.for('egg#sofaRegistry');
 

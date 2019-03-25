@@ -46,6 +46,7 @@
     "version": "8, 10"
   },
   "dependencies": {
+    "cluster-client": "^3.0.1",
     "sdk-base": "^3.5.0",
     "urllib": "^2.29.1"
   },
