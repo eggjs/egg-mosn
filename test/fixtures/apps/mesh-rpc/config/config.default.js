@@ -1,6 +1,6 @@
 'use strict';
 
-exports.sofaRpc = {
+exports.rpc = {
   server: {
     selfPublish: false,
     namespace: 'com.alipay.sofa.rpc.test',
